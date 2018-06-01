@@ -3,7 +3,7 @@
 echo "#bash - Camera align start"
 
 #### FILE
-FILE_DIR=/home/pi/video-recorder-player/assets/video/recordings
+FILE_DIR=assets/camera
 FILE=$FILE_DIR/align.mp4
 
 #### TECHNICAL SETTINGS
