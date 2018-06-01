@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Edit Startup
+Comment=Edit Startup
+Icon=/home/pi/projects/rpi-project-manager/assets/icon/edit-startup-icon.png
+Exec=/home/pi/projects/rpi-project-manager/bin/edit-startup
+Type=Application
+Encoding=UTF-8
+Terminal=true
+Categories=None;

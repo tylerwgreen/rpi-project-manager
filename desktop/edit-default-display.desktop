@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Edit Default Display
+Comment=Edit Default Display
+Icon=/home/pi/projects/rpi-project-manager/assets/icon/edit-default-display-icon.png
+Exec=/home/pi/projects/rpi-project-manager/bin/edit-default-display
+Type=Application
+Encoding=UTF-8
+Terminal=true
+Categories=None;

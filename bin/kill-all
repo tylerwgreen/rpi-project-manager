@@ -1,0 +1,6 @@
+echo killall started
+killall node
+echo node killed
+killall python
+echo python killed
+echo killall ended

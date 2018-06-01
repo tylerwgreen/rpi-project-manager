@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Camera Align
+Comment=Camera Align
+Icon=/home/pi/projects/rpi-project-manager/assets/icon/camera-align-icon.png
+Exec=/home/pi/projects/rpi-project-manager/bin/camera-align
+Type=Application
+Encoding=UTF-8
+Terminal=true
+Categories=None;

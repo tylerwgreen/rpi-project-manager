@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Kill all
+Comment=Kill all
+Icon=/home/pi/projects/rpi-project-manager/assets/icon/kill-all-icon.png
+Exec=/home/pi/projects/rpi-project-manager/bin/kill-all
+Type=Application
+Encoding=UTF-8
+Terminal=true
+Categories=None;

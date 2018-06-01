@@ -1,0 +1,2 @@
+#vim ~/.config/lxsession/LXDE-pi/autostart
+vim ~/projects/rpi-project-manager/bin/startup
