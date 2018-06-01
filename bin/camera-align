@@ -3,7 +3,8 @@
 echo "#bash - Camera align start"
 
 #### FILE
-FILE_DIR=assets/camera
+APP_DIR=$(dirname "$0")/..
+FILE_DIR=$APP_DIR/assets/camera
 FILE=$FILE_DIR/align.mp4
 
 #### TECHNICAL SETTINGS
@@ -50,3 +51,4 @@ DRC=off
 raspivid -o $FILE -b $BITRATE -t $DURATION -fps $FRAMERATE -e -w $RECORDING_WIDTH -h $RECORDING_HEIGHT -p $PREVIEW -sh $SHARPNESS -co $CONTRAST -br $BRIGHTNESS -sa $SATURATION -ISO $ISO -ex $EXPOSURE -awb $AWB -mm $METERING -drc $DRC
 
 echo "#bash - Camera align end"
+$SHELL

@@ -1,2 +1,3 @@
 #!/bin/bash
-vim ~/projects/rpi-project-manager/bin/startup
+APP_DIR=$(dirname "$0")/..
+sudo vim $APP_DIR/bin/startup

@@ -1,1 +1,8 @@
-
+#!/bin/bash
+echo "#bash - rpi-project-manager:startup"
+APP_DIR=$(dirname "$0")/..
+PROJECTS_DIR=$APP_DIR/..
+APP=rpi-interactive-slideshow
+# APP=rpi-lighting-field
+# APP=video-recorder-player
+./$PROJECTS_DIR/$APP/bin/startup

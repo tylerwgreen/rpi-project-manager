@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Check Disk Space
-Comment=Check Disk Space
+Name=Disk Space
+Comment=Disk Space
 Icon=/home/pi/projects/rpi-project-manager/assets/icon/check-disk-space-icon.png
 Exec=/home/pi/projects/rpi-project-manager/bin/check-disk-space
 Type=Application

@@ -1,22 +1,24 @@
 #!/bin/bash
 echo killall started
 
-
+## node
 killall node
 echo - node killed
-
+## python
 killall python
 echo - python killed
-
+## mpg123
 killall mpg123
+killall mpg123.bin
 echo - mpg123 killed
-
+## omxplayer
 killall omxplayer
 killall omxplayer.bin
 echo - omxplayer killed
-
+## chromium
 killall chromium-browser
 echo - chromium-browser killed
 
 
 echo killall ended
+$SHELL
