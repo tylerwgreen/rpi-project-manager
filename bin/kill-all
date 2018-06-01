@@ -9,7 +9,7 @@ killall python
 echo - python killed
 ## mpg123
 killall mpg123
-killall mpg123.bin
+# killall mpg123.bin
 echo - mpg123 killed
 ## omxplayer
 killall omxplayer
@@ -18,7 +18,12 @@ echo - omxplayer killed
 ## chromium
 killall chromium-browser
 echo - chromium-browser killed
-
+## raspivid
+killall raspivid
+echo - raspivid killed
+## MP4Box
+killall MP4Box
+echo - MP4Box killed
 
 echo killall ended
 $SHELL
