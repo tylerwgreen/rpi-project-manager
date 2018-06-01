@@ -1,5 +1,7 @@
 # Raspberry Pi Project Manager
 
+Raspbian Jessie
+
 ## Setup
 
 ### Desktop Icons
