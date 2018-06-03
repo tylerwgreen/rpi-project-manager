@@ -26,4 +26,4 @@ killall MP4Box
 echo - MP4Box killed
 
 echo killall ended
-$SHELL
+#$SHELL
