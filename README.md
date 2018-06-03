@@ -25,11 +25,13 @@ vim ~/.config/lxsession/LXDE-pi/autostart
 Update to:
 
 ```
-#@xscreensaver -no-splash # comment this line out to disable screensaver
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash # comment this line out to disable screensaver
 @xset s off
 @xset -dpms
 @xset s noblank
-@/home/pi/saguaro-man/startup
+bash /home/pi/projects/rpi-project-manager/bin/startup
 ```
 
 ### Remove Bloatware
