@@ -4,5 +4,5 @@ APP_DIR=$(dirname "$0")/..
 PROJECTS_DIR=$APP_DIR/..
 #APP=rpi-interactive-slideshow
 #APP=rpi-lighting-field
-APP=video-recorder-player
+APP=rpi-video-recorder-player
 bash $PROJECTS_DIR/$APP/bin/autostart
